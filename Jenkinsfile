@@ -2,8 +2,8 @@ pipeline{
 	agent any
 	environment{
 		JAR_NAME = "spring-rest-simple-one-0.0.1-SNAPSHOT.jar"
-		IMAGE_NAME = "spring-docker-demo"
-		CONTAINER_NAME = "spring-docker-demo-container"
+		IMAGE_NAME = "spring-rest-simple-dockerimg"
+		CONTAINER_NAME = "spring-rest-simple-container"
 	}
 	stages{
 		stage("Checkout"){
