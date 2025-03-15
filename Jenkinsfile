@@ -3,7 +3,7 @@ pipeline{
 	environment{
 		JAR_NAME = "spring-rest-simple-one-0.0.1-SNAPSHOT.jar"
 		IMAGE_NAME = "spring-docker-demo"
-		CONTAINER_NAME = "spring-socker-demo-container"
+		CONTAINER_NAME = "spring-docker-demo-container"
 	}
 	stages{
 		stage("Checkout"){
